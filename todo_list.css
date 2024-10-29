@@ -1,0 +1,38 @@
+body{
+    background-color:cornflowerblue;
+}
+#maindiv
+{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#main
+{
+    border-radius: 80px;
+    background-color: rgb(248, 251, 255);
+    padding: 50px;
+    
+}
+#input
+{
+    padding: 5px;
+    border-radius: 5px;
+}
+#main > *
+{
+    margin: 10px;
+}
+.button
+{
+    cursor: pointer;
+    color: rgb(22, 20, 22);
+    width: 90px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.button:hover
+{
+    background-color:grey;
+}
